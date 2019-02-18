@@ -21,7 +21,7 @@ const BuildControls = (props) => (
         removeIngredientHandler={() => props.removeIngredientHandler(ctrl.type)}
         disabled={props.disabled[ctrl.type]} />
    ))}
-
+  <button>Order Now</button>
   </div>
 )
 
